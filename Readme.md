@@ -9,6 +9,11 @@ BTC price information print to console.
 ## Getting Started
 
 ```
+cd btc_console
 dotnet run .
 ```
 
+```
+cd btc_console.Test
+dotnet test
+```
