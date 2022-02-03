@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/oju/works/nofrixion/btc_console/btc_console.csproj": {}
+  },
+  "projects": {
+    "/home/oju/works/nofrixion/btc_console/btc_console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/oju/works/nofrixion/btc_console/btc_console.csproj",
+        "projectName": "btc_console",
+        "projectPath": "/home/oju/works/nofrixion/btc_console/btc_console.csproj",
+        "packagesPath": "/home/oju/.nuget/packages/",
+        "outputPath": "/home/oju/works/nofrixion/btc_console/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/oju/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.88, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
