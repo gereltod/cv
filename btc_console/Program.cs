@@ -102,7 +102,7 @@ public class Program
             var btc_price = await GetCallAPI<BTC>(url_price);
 
             Console.WriteLine(String.Format("COIN -> {0}", coin_name));
-            Console.WriteLine(String.Format(" Date -> {0}", btc_price!.time!.FirstOrDefault(x => x.Key == "updateduk").Value));
+            Console.WriteLine(String.Format(" Date -> {0:F}", DateTime.Parse(btc_price!.time!.FirstOrDefault(x => x.Key == "updatedISO").Value)));
             string v = "";
             int line = 10;
             int j = 0;
